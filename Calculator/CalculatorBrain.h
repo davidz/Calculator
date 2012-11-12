@@ -15,4 +15,6 @@
 - (double)performOperation;
 - (void)setOperator:(NSString *)operator;
 
+@property (readonly) id program;
+
 @end
